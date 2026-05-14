@@ -34,6 +34,13 @@ export const Hero = () => {
 
       <div ref={contentRef} className="relative container-wide pt-40 pb-24 text-white will-change-transform">
         <div className="max-w-3xl" data-reveal>
+          <div className="flex items-center gap-3 mb-8">
+            <img src="/logo/msc-creative-logo.svg" alt="MSC Creative logo" className="w-16 h-12 object-contain" width={64} height={48} loading="eager" />
+            <div>
+              <p className="font-display text-lg font-semibold text-white">Mahaveer Sales</p>
+              <p className="text-xs tracking-[0.15em] uppercase text-white/70 font-medium">Corporation · Est. 2006</p>
+            </div>
+          </div>
           <p className="eyebrow text-white/80 mb-6">
             <span className="text-white/80">Interiors · Mumbai · Since 2006</span>
           </p>
