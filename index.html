@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahaveer Sales Corporation — Wooden Flooring & Interiors, Mumbai</title>
+    <meta name="description" content="Premium wooden flooring, blinds, wallpapers, decking and complete interior solutions in Mumbai. Trusted since 2006." />
+    <meta name="author" content="Mahaveer Sales Corporation" />
+    <meta name="keywords" content="wooden flooring, interior design, blinds, wallpapers, decking, Mumbai" />
+
+    <meta property="og:title" content="Mahaveer Sales Corporation — Premium Interiors" />
+    <meta property="og:description" content="Premium wooden flooring, blinds, wallpapers, decking and complete interior solutions in Mumbai. Trusted since 2006." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/logo/msc-logo.jpg" />
+    <meta property="og:url" content="https://mahaveersales.com" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mahaveer Sales Corporation" />
+    <meta name="twitter:description" content="Premium wooden flooring & interior solutions" />
+    <meta name="twitter:image" content="/logo/msc-logo.jpg" />
+  </head>
+
+  <body>
+    <script>
+      // Apply theme before paint to avoid flash
+      (function () {
+        try {
+          var s = localStorage.getItem('msc-theme');
+          var d = s ? s === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (d) document.documentElement.classList.add('dark');
+          document.documentElement.style.colorScheme = d ? 'dark' : 'light';
+        } catch (e) {}
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
